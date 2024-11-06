@@ -1,0 +1,63 @@
+İlk olarak bilgisayarınızda Python kurulu olmalı.
+(First of all, Python should be installed in your computer)
+
+Python kurduktan sonra Powershell'e gidin ve "Pip install argparse" yazın. O indirildikten sonra "Pip install http.client" yazın
+(After Python is installed, go to Powershell and write "Pip install argparse" After it's installed, write "Pip install http.client")
+
+Bunlar HİLAL'in çalışması için gerekli olan Python kütüphaneleridir.
+(Those are the Python libraries that are necessary for HİLAL to work.)
+
+hilal.py dosyasını alın ve kendi bilgisayarınızda, kendi kullanıcı klasörünüze atın.
+Örneğin: OS(C:)\Kullanıcılar\Sizinkullanıcıprofiliniz
+(Take the hilal.py file and place it in your user folder on your computer.
+For example: OS(C:)\Users\Youruserprofile)
+
+Powershell'e gidin.
+(Go to Powershell)
+
+"KULLANIM: hilal.py [-h] -s SERVER [-p PORT] [-t TURBO] [-q]"
+
+Kullanım açıklaması: 
+"python hilal.py -s örneksunucu.com" Yazın.
+İsterseniz Sessiz Mod'u sonuna bir "-q" ekleyerek yazabilirsiniz veya turbo değerini "-t 10" yazıp değiştirebilirsiniz. 10 burada sadece bir örnek.
+
+Sadece üstteki gibi "python hilal.py -s örneksunucu.com" şeklinde kullanmanız yeterli olacaktır.
+
+Ben "python hilal.py -s örneksunucu.com -q" şeklinde kullanmanızı öneririm.
+
+Taramak istediğiniz port'u seçmek için sunucuyu veya sunucu ip adresini yazdıktan sonra yanına -p ekleyin ve -p'nin yanına taramak istediğiniz portu yazın.
+
+Örneğin 8000 portunu taramak istiyorsanız:
+
+"python hilal.py -s örneksunucu.com -p 8000" şeklinde kullanabilirsiniz.
+
+Yazarken örneğin [-p] şeklinde yazmayın, çalışmaz. Sadece -p şeklinde yazmalısınız, satır veya tırnak vb. içine almadan.
+
+("USAGE: hilal.py [-h] -s SERVER [-p PORT] [-t TURBO] [-q]"
+
+Usage description: 
+Type "python hilal.py -s exampleserver.com".
+If you want, you can write Quiet Mode by adding a "-q" at the end, or you can change the turbo value by typing "-t 10". 10 is just an example here.
+
+It will be enough to just use "python hilal.py -s exampleserver.com" as above.
+
+I recommend you to use it as "python hilal.py -s exampleserver.com -q".
+
+To select the port you want to scan, after typing the server or server IP address, add -p next to it and write the port you want to scan next to -p.
+
+For example, if you want to scan port 8000:
+
+You can use it as "python hilal.py -s exampleserver.com -p 8000".
+
+For example, do not write [-p] as it will not work. You just have to type it as -p no lines or quotes etc.
+
+
+Bu programı sorumlulukla kullanın, kullanırken tarama yaptığınız bir sunucu veya ip adresini taramak için izniniz olsun. Bu uygulama kullanılarak yapılan herhangi bir eylemden ben sorumlu değilim, sizin sorumluluğunuzdur. Bu programı kullanarak bunu kabul etmiş olursunuz.
+
+(Use this program responsibly, make sure you have permission to scan a server or IP address you scan while using it. I am not responsible for any action taken using this app, it is your responsibility. By using this program you accept this.)
+
+Bu program RedNullBot tarafından hazırlanmıştır. Kodlar kapalı kaynak kodlu. Lütfen çalmayın.*
+(This program is made by RedNullBot. Codes are obfuscated. Please don't steal.)
+
+Tadını çıkarın! :)
+Enjoy! :)
